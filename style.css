@@ -1,0 +1,44 @@
+body {
+    background: rgb(50, 50, 50);
+    margin-top: 3%;
+    font-family: Arial, sans-serif; /* Change font family to Arial or any sans-serif font */
+    color: #fff; /* Change text color to white */
+}
+
+.bg-inside {
+    background: rgba(183, 233, 245, 0.8);
+    box-shadow: 0px 0px 1px rgba(10, 185, 216, 0.8);
+}
+
+.calculator {
+    box-shadow: 4px 8px 50px rgba(29, 134, 253, 0.8);
+    background-color: rgb(0, 100, 150); /* Change background color to dark blue */
+}
+
+.bg-button {
+    background: rgba(255, 255, 255, 0.9);
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 5px 3px rgba(144, 233, 248, 0.8);
+    font-family: "Courier New", monospace; /* Change font family to Courier New or any monospace font */
+    font-size: 18px; /* Increase font size for better visibility */
+}
+
+.btn:hover {
+    background: rgb(255, 255, 255) !important;
+    color: rgb(0, 100, 150); /* Change text color on hover to dark blue */
+}
+
+.bg-result {
+    background-color: rgb(30, 220, 190); /* Change background color to turquoise */
+}
+
+.bg-button-op {
+    background: rgba(245, 6, 6, 0.9);
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 5px 3px rgba(144, 233, 248, 0.8);
+    font-family: "Courier New", monospace; /* Change font family to Courier New or any monospace font */
+    font-size: 18px; /* Increase font size for better visibility */
+    color: #fff; /* Change text color to white */
+}
